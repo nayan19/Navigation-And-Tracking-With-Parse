@@ -30,9 +30,9 @@ public class StarterApplication extends Application {
 
     // Add your initialization code here
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("zMGh9rQvnVmbRC6qTHjsVOfoIq1MhoS7JJNizHg1")
-            .clientKey("ZivWyxC3VKLnGmOo3QySjZGarMyqrJjbQ3oauqwZ")
-            .server("https://parseapi.back4app.com/")
+            .applicationId("YOUR APPLICATION ID")
+            .clientKey("YOUR PARSE CLIENT KEY")
+            .server("SERVER URL")
             .build()
     );
 
